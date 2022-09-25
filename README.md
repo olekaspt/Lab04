@@ -15,7 +15,7 @@ In this assignment, we are going to be investigating the actual performance of d
   *	Quicksort
   *	Radix-sort // you probably want to consider storing the values as strings
   
-2.	Test each of the sort operations and record the time the sort takes to complete.  You should test each on the same unsorted array to get the best comparison.  You should do this for each array size (from requirement 1) a minimum of 10 times.  Your test should use the chrono library’s high_resolution_clock class.  The following example of how to do this in nanoseconds is found on Stack Overflow.  Only the time in the 5 sort functions should be measured.
+2.	Test each of the sort operations and record the time the sort takes to complete.  You should test each on the same unsorted array to get the best comparison.  You should do this for each array size (from requirement 1) a minimum of 10 times.  Your test should use the chrono library’s [high_resolution_clock](http://www.cplusplus.com/reference/chrono/high_resolution_clock/) class.  The following example of how to do this in nanoseconds is found on [Stack Overflow](http://stackoverflow.com/questions/3220477/how-to-use-clock-in-c).  Only the time in the 5 sort functions should be measured.
 
 ```c++
 #include <iostream>
