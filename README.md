@@ -1,12 +1,12 @@
 # Lab04
 
-##Objective:
+## Objective:
 The objective of this homework is to investigate different sorting algorithms.
 
-##Scenario:
+## Scenario:
 In this assignment, we are going to be investigating the actual performance of different sorting methods.  This needs to be written using C++.
 
-##Requirements:
+## Requirements:
 1.	Create a program that generate an array of sizes n= 10, 100, 500, 5000 and 25000 items.  Your program should populate those arrays with randomly generated integers with a value between 0 and the 2n where n is the size of the array.  Create an implementation for the following sort operations.
 
   *	Bubble sort
@@ -50,13 +50,13 @@ Radix-sort	512 ms	1101 ms	2002 ms	        77757 ms	  7747474 ms
 If any 1 test run takes longer than 5 minutes, you may discontinue that test and record that the time took longer than 5 minutes.  Likewise, should any test crash due to running out of memory, record that as well.  Graph this data and explain how well or poorly it matches your expectations for performance given the known Big O notation for the given sort algorithms.  Include what you expected for time for each of the array sizes based on the results for array size of 10.
 
 
-Submission:
+## Submission:
 Submit all source code files and any required data files in a tar file.  Include a write up as a PDF including:
 * Table and graph from requirement 2 along with your writeup of the results from that requirement.
 * Submission should include all source and PDF.
 * Don't forget participation matrix
 
-#Grading:
+## Grading:
 1. 20% - Requirement 1 is completed and working
 2. 40% - Code for Requirement 2 is completed and working
 3. 30% - Analysis for Requirement 2 explains your results including any unexpected results.
