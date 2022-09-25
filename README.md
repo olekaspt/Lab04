@@ -16,3 +16,22 @@ In this assignment, we are going to be investigating the actual performance of d
   *	Radix-sort // you probably want to consider storing the values as strings
   
 2.	Test each of the sort operations and record the time the sort takes to complete.  You should test each on the same unsorted array to get the best comparison.  You should do this for each array size (from requirement 1) a minimum of 10 times.  Your test should use the chrono library’s high_resolution_clock class.  The following example of how to do this in nanoseconds is found on Stack Overflow.  Only the time in the 5 sort functions should be measured.
+
+```c++
+#include <iostream>
+#include <chrono>
+typedef std::chrono::high_resolution_clock Clock;
+	
+int main()
+{
+   auto t1 = Clock::now();
+	  <Some interesting code that does something>
+	  auto t2 = Clock::now();
+	  std::cout << "Delta t2-t1: " 
+	        << std::chrono::duration_cast<std::chrono::nanoseconds>(t2 - t1).count()
+	        << " nanoseconds" << std::endl;
+}
+
+
+
+```
