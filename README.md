@@ -24,7 +24,8 @@ typedef std::chrono::high_resolution_clock Clock;
 	
 int main()
 {
-   auto t1 = Clock::now();
+         <YOUR Data Generation Here>
+          auto t1 = Clock::now();
 	  <Some interesting code that does something>
 	  auto t2 = Clock::now();
 	  std::cout << "Delta t2-t1: " 
